@@ -1,0 +1,55 @@
+.pessoas{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+.pessoaImg{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+.imgRoberta{
+    background-image: url('../img/pessoas/roberta.jpg');
+}
+.imgMarcela{
+    background-image: url('../img/pessoas/marcela.jpg');
+}
+.imgAndreia{
+    background-image: url('../img/pessoas/andreia.jpg');
+}
+.pessoaNome{
+    margin: 1rem 0;
+    font-family: var(--font);
+    color: #8d0606;
+    font-size: 2rem;
+}
+.pessoaFuncao{
+    text-transform: lowercase;
+    color: #595959;
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 0){
+    .pessoas{
+        flex-direction: column;
+    }
+    .pessoa{
+       margin-bottom: 2rem; 
+    }
+}
+@media screen and (min-width: 768px){
+    .pessoas{
+        flex-direction: row;
+    }
+    .pessoa{
+        margin-bottom: 0; 
+     }
+}

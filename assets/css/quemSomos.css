@@ -1,0 +1,16 @@
+.quemSomos{
+    text-align: center;
+    padding: 5rem;
+}
+
+.quemSomosTitulo{
+    margin-bottom: 1rem;
+    color: #8d0606;
+    font-size: 3.1875rem;
+    font-family: var(--font);
+}
+.quemSomosDescr{
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #595959;
+}
