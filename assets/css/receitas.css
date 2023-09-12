@@ -69,7 +69,7 @@
         width: calc(33.33% - 2rem);
     }
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1235px){
     .receitas{
         padding: 3rem 0 0 5rem;
     }
